@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
+  <style type="text/css">
 @import url("http://bootswatch.com/simplex/bootstrap.min.css");
    .col-md-8 {
     padding: 50px 30px 50px 80px;
