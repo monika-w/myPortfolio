@@ -1,37 +1,93 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
-You can use the [editor on GitHub](https://github.com/monika-w/myPortfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<body>
+<!-- navbar starts here-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Portofolio</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- navBar ends here-->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<div id="About" class="container-fluid">
+    <div class="jumbotron first">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <h1 class="text-center">Yiyuan Weng</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <h3><small>Front-End Developer and UX/UI designer</small></h3>
+                <h3><small>Graphic Designer</small></h3>
+                <h3><small>Java Developer</small></h3>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive img-circle" alt="Yiyuan Weng" src="https://scontent.fgye3-1.fna.fbcdn.net/v/t31.0-8/q83/s960x960/17359349_615480405324938_4886515232810041245_o.jpg?oh=9950432591b737f2edae5ac76d313a17&amp;oe=595FDAA3">
+            </div>
+        </div>
+        <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+    </div>
+</div><!-- About information ends here -->
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+<div class="container-fluid">
+    <div id="Gallery" class="jumbotron second">
 
-1. Numbered
-2. List
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+            <div class="col-md-4">
+                 <img class="img-responsive img-circle" alt="Example 1" src="">
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive img-circle" alt="Example 2" src="">
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive img-circle" alt="Example 3" src="">
+            </div>
+        </div>
+        <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+    </div>
+</div><!-- Gallery ends here -->
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<div id="About" class="container-fluid">
+    <div class="jumbotron third">
 
-### Jekyll Themes
+        <h1 class="text-center">Contact me</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <h3><small>Front-End Developer and UX/UI designer</small></h3>
+                <h3><small>Graphic Designer</small></h3>
+                <h3><small>Java Developer</small></h3>
+            </div>
+            <div class="col-md-4">
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/monika-w/myPortfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+              <p id="Contact">Want to get in touch with me? Send me an email I'll respond to you as soon as possible! </p>
+            </div>
+        </div>
+                    
+        <p><i class="fa fa-facebook-square" id="fbicon"></i> Follow <a href="https://www.facebook.com/Mon1kaMona" target="_blank"> me </a> for web design &amp; development articles, opinions and links</p>
+    </div>
+</div><!-- Contact information ends here -->
+</body>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
