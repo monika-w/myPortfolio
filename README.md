@@ -1,5 +1,10 @@
 
-<style>
+
+<!--style sheet up-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
 @import url("http://bootswatch.com/simplex/bootstrap.min.css");
 .col-md-8 {
     padding: 50px 30px 50px 80px;
@@ -9,10 +14,6 @@
 background-color: #FF3 !important;
 }
 </style>
-<!--style sheet up-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
